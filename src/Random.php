@@ -150,7 +150,7 @@ class Random
     {
         $length = (int) $length;
         if (!$charset) {
-            $charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789./';
+            $charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
         }
 
         $charsetLength = strlen($charset);
